@@ -50,7 +50,6 @@ public class AirConditionTest {
         aC.increaseTemperature(9);
         assertEquals(25, aC.getIncreaseTemperature());
         aC.sametTemperatureRange(40);
-        System.out.println(aC.getSameTemperatureRange());
         assertEquals(30,aC.getSameTemperatureRange());
 
     }
@@ -63,7 +62,6 @@ public class AirConditionTest {
         aC.increaseTemperature(14);
         assertEquals(30, aC.getIncreaseTemperature());
        aC.setSametTemperatureRange(-1);
-       System.out.println(aC.getReturnSameTemperatureRange());
         assertEquals(30,aC.getReturnSameTemperatureRange());
 
     }
