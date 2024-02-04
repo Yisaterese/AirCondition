@@ -47,7 +47,6 @@ public class AirCondition {
             }
         }
     }
-
     public int getSameTemperatureRange() {
         return temperature;
 
