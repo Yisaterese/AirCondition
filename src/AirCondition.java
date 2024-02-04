@@ -8,7 +8,6 @@ public class AirCondition {
     public void isOff() {
         isOn = false;
     }
-
     public boolean toggleSwitch() {
         isOn = !isOn;
         return isOn;
