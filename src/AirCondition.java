@@ -5,7 +5,6 @@ public class AirCondition {
     public boolean isOn() {
         return isOn;
     }
-
     public void isOff() {
         isOn = false;
     }
