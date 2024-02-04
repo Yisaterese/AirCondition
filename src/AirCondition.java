@@ -52,7 +52,6 @@ public class AirCondition {
         return temperature;
 
     }
-
     public void setSametTemperatureRange(int decrement) {
         for (int decrease = decrement; decrease >= 1; decrease--) {
             boolean temperatureIsLessThanOrGreaterthan30 = decrement < temperature;
