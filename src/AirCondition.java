@@ -32,7 +32,6 @@ public class AirCondition {
             this.temperature--;
         }
     }
-
     public int getDecrasetemperature() {
         return temperature;
     }
