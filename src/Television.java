@@ -19,10 +19,30 @@ public class Television {
         return isOn;
     }
 
-    public int addVolume(int vol) {
+    public void addVolume(int vol) {
         for(int counter = 1; counter <= vol; counter++){
-            volume++;
+            boolean addedVolumeRange = vol >= 1;
+            if(addedVolumeRange) {
+                volume++;
+            }else{
+
+            }
         }
+
+    }
+
+    public void reduceVolume(int reducedVolume){
+        for(int count  = reducedVolume; count >= 1;  count-- ) {
+            boolean reducedVolumeRange = reducedVolume < 16;
+            if(volumeRange) {
+                volume--;
+            }else{
+
+            }
+        }
+    }
+
+    public int getCurrentVolume(){
         return volume;
     }
 
@@ -34,7 +54,7 @@ public class Television {
     }
 
     public void unsubscribeChannels(String... channelName){
-        for(int index = 0; index < channels.size(); index++) {
+        for(int index = 0; index < channels.size()-1; index++) {
             if(channels.get(index).equals(channelName[index])){
                 channels.remove(channelName);
             }
